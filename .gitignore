@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Mac system files
+.DS_Store
+
+# Anchor build artifacts
+target/
+*.so
+**/target/
+.migrate
+
+# Rust / Solana cache
+**/Cargo.lock
+**/.cargo/
+**/.rustup/
+**/.sbf/
+**/target/idl/
+**/target/types/
+
+# TypeScript build artifacts
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# VS Code settings
+.vscode/
+.history/
+
+# Testing coverage
+coverage/
+
+# Solana keypairs
+*.json
+!package.json   # Keep package.json files
+
+# Generated docs
+docs/
