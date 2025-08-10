@@ -1,0 +1,13 @@
+echo $PATH 
+
+check where anchor is
+ls ~/.cargo/bin/anchor
+ls ~/.avm/bin/anchor
+
+make the terminal recognize anchor
+export PATH="$HOME/.avm/bin:$PATH"
+
+reload shell 
+source ~/.bashrc
+
+anchor --version
