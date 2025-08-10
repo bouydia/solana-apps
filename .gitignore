@@ -50,7 +50,7 @@ coverage/
 
 # Solana keypairs
 *.json
-!package.json   # Keep package.json files
+
 
 # Generated docs
 docs/
